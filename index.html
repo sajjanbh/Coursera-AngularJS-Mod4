@@ -5,12 +5,19 @@
     <!-- <link rel="stylesheet" href="css/styles.css"> -->
     <title>Welcome to our Restaurant</title>
 	<style>
-		ui-view ul li {
+		ui-view ul, ui-view ol {
+			width:40%;
+		}
+		ui-view li {
 			list-style: none;
 			cursor: pointer;
+			display: block;
+			margin-bottom: 5px;
+			padding: 5px;
+			background-color: #ddd;
 		}
-		ui-view ul li:hover {
-			text-decoration: underline;
+		ui-view li:hover {
+			background-color: #eee;
 		}
 	</style>
   </head>
